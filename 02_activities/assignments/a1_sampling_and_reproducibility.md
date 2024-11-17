@@ -13,7 +13,13 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 # Author: YOUR NAME
 
 ```
-Please write your explanation here...
+Efforts in contact tracing typically aren't random, and they may either underrepresent or overrepresent certain groups.
+
+Sampling frame refers to the population or list of individuals from which a sample is selected. In the context of contact tracing, this might include people who are either infected or have been exposed to the virus.
+
+To enhance the analysis, you can adjust the number of repetitions to 1000. To ensure that the results are consistent and reproducible, you can set the random seed by adding the following line of code:
+
+np.random.seed(42)
 
 ```
 
