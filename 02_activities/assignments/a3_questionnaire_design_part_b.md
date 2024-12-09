@@ -31,7 +31,11 @@ c.excellent
 Do you feel that there are enough opportunities for you career growth within the company?
 a.yes
 b.no
-c.I don't know.
+c.Not sure
+Added "Not sure" option in Question 4
+Original: Do you feel that there are sufficient opportunities for career growth within the company? (Yes/No/I don't know)
+Revised: Do you feel that there are sufficient opportunities for career growth within the company? (Yes/No/Not sure)
+Reason: "I don't know" might sound dismissive or imply a lack of thought. "Not sure" is clearer and provides a neutral option for respondents who genuinely cannot decide, reducing the risk of forced or invalid answers.
 5. write your question here...
 How would you recommend the company to others?
 a.very positive
@@ -39,7 +43,10 @@ b.mostly positive
 c.neutral
 d.mostly negative
 e.very negative
-change : a. very likely b. somewhat likely c.Neutral d.somewhat unlikely e.very unlikely
+Changed wording in Question 5 to "How likely are you to recommend the company":
+Original: How would you recommend the company to others?
+Revised: How likely are you to recommend the company as a place to work to others?
+Reason: The original phrasing was ambiguous, making it unclear whether respondents were being asked about their general opinion or their likelihood of recommending the company. The revised wording aligns with common survey standards (e.g., Net Promoter Score), ensuring clarity and better comparability with benchmarks.
 6. write your question here... (optional)
 What suggestions or imporvement would you say to reduce the employee turenover ?
 #
@@ -78,7 +85,6 @@ This assignment supports learning outcomes 1, 2, 3, and 4:
 ## Submission Information
 
 🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
-
 ### Submission Parameters:
 * Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
 * The branch name for your repo should be: `questionnaire-b`
